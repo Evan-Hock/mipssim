@@ -171,3 +171,6 @@ def run():
         
 compile(progtext)
 run()
+
+print('Value for register 9 is:', registers[regnumber('r9')])
+print('Instruction prevalence is', instcount)
